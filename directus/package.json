@@ -1,9 +1,8 @@
 {
-  "scripts": {
-    "start": "bun --env-file=.env run create.ts && docker compose up -d"
+  "dependencies": {
+    "directus-template-cli": "^0.7.2"
   },
   "devDependencies": {
-    "@neondatabase/api-client": "^2.2.0",
     "@types/node": "^24.3.0"
   }
 }
